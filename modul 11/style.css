@@ -1,3 +1,23 @@
+body{
+    background-color:grey;
+}
+
 h1{
     color:blue
+}
+
+div{
+    border: 3px solid black;
+    width: 300px;
+    margin: 70px;
+    padding: 50px;
+    background-color: azure;
+
+}
+#shkolla{
+
+    border-width: 3px;
+    border-style: double;
+    border-color: aquamarine;
+    padding: 5px;
 }
