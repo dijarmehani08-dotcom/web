@@ -18,3 +18,36 @@
     padding: 15px;
     text-align: center;
 }
+
+p[class*=ds]{
+    color: white;
+    background-color: gray;
+    padding: 20px;
+}
+
+h1[class|=heading]{
+    background-color: red;
+    padding: 20px;
+    color: aqua;
+}
+
+div[id ~="ds"]{
+    background-color: palevioletred;
+    padding: 20px;
+    color: aqua;
+
+}
+
+img[title^=blue]{
+background-color: tan;
+    padding: 20px;
+    color: aqua;
+
+}
+
+img[title $=blue]{
+background-color: saddlebrown;
+    padding: 20px;
+    color: aqua;
+
+}
