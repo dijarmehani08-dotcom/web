@@ -1,0 +1,45 @@
+body{
+counter-reset: number;
+}
+
+h2::before{
+counter-increment: number;
+content: counter(number);
+background-color: antiquewhite;
+border-radius: 15px;
+padding: 6px 15px;
+color: black;
+margin: 10px;
+}
+
+:root{
+    --primary-color:antiquewhite;
+    --mgjyra-e-dyte:grey;
+    --padding:20px;
+}
+
+.vars{
+    background-color: var(--primary-color);
+    color: var(--mgjyra-e-dyte);
+    padding: var(--padding);
+}
+
+.rounded{
+    display: flex;
+}
+
+.rounded #example-three{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background: url(./snake.jpg);
+}
+
+.rounded #example-four{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 60px 10px;
+    background-color: aquamarine;
+}
