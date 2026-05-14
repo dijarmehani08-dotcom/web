@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+}
+
+#section-1{
+    background-color: #87509c;
+    height: 600px;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 55px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a .active{
+    background-color: #643a79;
+    border-radius: 5px;
+}
+
