@@ -107,3 +107,94 @@ nav ul li a .active{
     font-size: 16px;
 }
 
+#section-3{
+    background-color: #3ca499;
+    width: 800px;
+    color: white;
+}
+
+#conntact-form{
+    min-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.form-row{
+    display: flex;
+
+}
+
+input[type="text"], input[type="email"]{
+    height: 56px;
+    width: 46%;
+
+}
+
+input[type="text"], input[type="email"] ,textarea{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: white;
+     background-color: #273a71;
+     font-size: 18px;
+     margin: 16px;
+     border-radius: 5px;
+     padding-left: 20px;
+     border: none;
+
+}
+
+textarea{
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+
+}
+
+input[type="submit"]{
+     color: white;
+     background-color: #273a71;
+     font-size: 18px;
+     margin: 16px;
+     border-radius: auto;
+     padding-left: auto;
+     border: none;
+     margin-top: 60px;
+     border-radius: 6px;
+
+}
+
+.big-button{
+    padding: 25px 85px;
+    color: white;
+
+}
+
+footer{
+background-color: #344b8e;
+}
+
+.footer-link{
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+footer ul{
+margin: 0;
+padding-top: 25px;
+padding-bottom: 25px;
+display: flex;
+}
+
+.footers-link ul li{
+text-decoration: none;
+padding: 10px 20px 10px 20px;
+}
+
+
+.footers-link ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
