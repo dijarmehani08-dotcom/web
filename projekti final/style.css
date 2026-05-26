@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#section-1{
+    background-color: grey;
+    height: 600px;
+
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+}
+
+header{ 
+    display: flex;
+    justify-content: space-around;
+    padding: 55px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+.carbrands{
+    display: inline-block;
+    padding: 10px 16px;
+    overflow: hidden;
+    float: left;
+}
