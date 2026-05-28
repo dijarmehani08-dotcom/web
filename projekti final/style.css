@@ -9,26 +9,16 @@ body{
 
 }
 
-.container{
-    margin-right: auto;
-    margin-left: auto;
-    height: 100%;
-}
-
-header{ 
-    display: flex;
-    justify-content: space-around;
-    padding: 55px;
-}
-
 nav ul li{
-    display: inline-block;
-    padding: 10px 16px;
+    list-style-type: none;
 }
 
-.carbrands{
-    display: inline-block;
-    padding: 10px 16px;
-    overflow: hidden;
-    float: left;
+nav ul li a .active{
+    background-color: #643a79;
+    border-radius: 5px;
+}
+
+header img{
+    height: 150px;
+    width: 150px;
 }
